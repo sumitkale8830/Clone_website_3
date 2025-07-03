@@ -88,7 +88,7 @@
   height: 920px;
   width: 100%;
   width: 100%;
-  background-image: url(3.back);
+  background-image: url(https://themewagon.github.io/elen/images/bg_1.jpg);
   background-size: cover;
   box-sizing: border-box;
 }
@@ -109,7 +109,7 @@
 }
 
 .image {
-  background-image: url(3.websiteimg);
+  background-image: url(https://themewagon.github.io/elen/images/author.jpg);
   background-size: cover;
   height: 35%;
   width: 23%;
@@ -202,7 +202,7 @@
 .clicks1 {
   height: 46%;
   width: 100%;
-  background-image: url(image_1.jpg);
+  background-image: url(https://themewagon.github.io/elen/images/image_1.jpg);
   background-size: cover;
   background-position-y: center;
   border-radius: 5px;
