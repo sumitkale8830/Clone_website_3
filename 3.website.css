@@ -4,7 +4,7 @@
 }
 
 .v_navbar {
-  height: 950px;
+  height: 765px;
   width: 24%;
   background-color: rgba(231, 229, 229, 0.4);
   float: left;
@@ -12,7 +12,7 @@
 }
 
 .wesite_content {
-  height: 5025px;
+  height: 4800px;
   width: 76%;
 
   float: left;
@@ -85,7 +85,7 @@
 }
 
 .top {
-  height: 920px;
+  height: 765px;
   width: 100%;
   width: 100%;
   background-image: url(https://themewagon.github.io/elen/images/bg_1.jpg);
@@ -102,7 +102,7 @@
 }
 
 .imgdev {
-  height: 550px;
+  height: 400px;
   width: 100%;
   background-color: transparent;
   text-align: center;
@@ -219,7 +219,7 @@
   margin-top: 7%;
   color: black;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 25px;
 }
 
 .info p {
@@ -524,10 +524,10 @@
 }
 
 .footer {
-  height: 610px;
+  height: 536px;
   width: 100%;
   background-color: rgb(19, 34, 56);
-  padding: 100px 200px 100px 200px;
+  padding: 90px 100px 90px 100px;
   box-sizing: border-box;
 }
 
