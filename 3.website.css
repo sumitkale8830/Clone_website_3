@@ -9,6 +9,7 @@
   background-color: rgba(231, 229, 229, 0.4);
   float: left;
   position: fixed;
+  box-sizing: border-box;
 }
 
 .wesite_content {
