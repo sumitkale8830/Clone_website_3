@@ -609,3 +609,619 @@
 
   margin-top: 380px;
 }
+
+@media (max-width: 555px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .v_navbar {
+    height: 725px;
+    width: 24%;
+    background-color: rgba(231, 229, 229, 0.4);
+    float: left;
+    position: fixed;
+    box-sizing: border-box;
+  }
+
+  .wesite_content {
+    height: 4746px;
+    width: 76%;
+    display: block;
+    float: left;
+    position: relative;
+    left: 24%;
+    background-color: transparent;
+    box-sizing: border-box;
+  }
+
+  .logo {
+    text-align: center;
+    height: 20%;
+    width: 100%;
+
+    padding-top: 50px;
+    box-sizing: border-box;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+  #dot {
+    color: gray;
+  }
+
+  .pages {
+    text-align: center;
+    height: 55%;
+    width: 100%;
+    padding-top: 10px;
+    box-sizing: border-box;
+  }
+
+  .pages li {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 8px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    cursor: pointer;
+    color: gray;
+  }
+
+  .pages li:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .copy_right {
+    height: 30%;
+    width: 100%;
+
+    text-align: center;
+    font-size: 13px;
+    padding-top: 30px;
+    color: gray;
+  }
+
+  .colorlib {
+    color: orange;
+    cursor: pointer;
+  }
+
+  .copy_right li {
+    color: black;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 15px;
+  }
+
+  .top {
+    height: 725px;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/elen/images/bg_1.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0%;
+  }
+
+  .opacitydiv {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0%;
+  }
+
+  .imgdev {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .image {
+    background-image: url(https://themewagon.github.io/elen/images/author.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+
+  .imgdev h2 {
+    color: gray;
+    height: 40px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 15px;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+
+  .imgdev h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+
+  .content {
+    color: gray;
+    margin-top: 18px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .content a {
+    position: relative;
+    top: 30px;
+    font-size: 22px;
+    color: gray;
+  }
+
+  .articles {
+    height: 5000px;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .article_logo {
+    height: 4%;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+    float: left;
+    padding: 0%;
+  }
+
+  .article_logo p {
+    margin-top: 30px;
+    color: gray;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .gallary {
+    height: 95%;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  .photos1 {
+    width: 100%;
+    height: 15%;
+    float: left;
+  }
+
+  .photos {
+    width: 100%;
+    height: 15%;
+    float: left;
+  }
+
+  #topmargin {
+    float: left;
+    margin-top: 8%;
+  }
+  .clicks1 {
+    height: 46%;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/elen/images/image_1.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+  }
+
+  .info h5 {
+    color: orange;
+    text-transform: uppercase;
+    margin-top: 7%;
+  }
+  .info h3 {
+    margin-top: 7%;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .info p {
+    margin-top: 7%;
+    font-size: 19.3px;
+    color: gray;
+  }
+
+  .profile {
+    height: 26.1%;
+    width: 100%;
+
+    box-sizing: border-box;
+  }
+  .profo1 {
+    background-image: url(https://themewagon.github.io/elen/images/person_1.jpg);
+    cursor: pointer;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 32%;
+    width: 20.5%;
+    float: left;
+    margin-top: 11%;
+    background-size: cover;
+  }
+
+  .profoabout {
+    width: 78%;
+    height: 40%;
+    float: right;
+    background-color: transparent;
+    margin-top: 9%;
+  }
+
+  .profoabout p {
+    font-size: 19.3px;
+    color: gray;
+  }
+
+  .profoabout h2 {
+    color: black;
+    font-weight: bolder;
+  }
+  .likes {
+    height: 38.5%;
+    width: 100%;
+    float: left;
+    color: gray;
+    padding-top: 3%;
+    font-size: large;
+    word-spacing: 10px;
+  }
+
+  .likes a {
+    float: left;
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  .clicks2 {
+    height: 46%;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/elen/images/image_2.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .profo2 {
+    background-image: url(https://themewagon.github.io/elen/images/person_2.jpg);
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 32%;
+    width: 20.5%;
+    float: left;
+    margin-top: 11%;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .clicks3 {
+    height: 46%;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/elen/images/image_3.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .profo3 {
+    background-image: url(https://themewagon.github.io/elen/images/person_3.jpg);
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 32%;
+    width: 20.5%;
+    float: left;
+    margin-top: 11%;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .clicks4 {
+    height: 46%;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/elen/images/image_4.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .profo4 {
+    background-image: url(https://themewagon.github.io/elen/images/person_1.jpg);
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 32%;
+    width: 20.5%;
+    float: left;
+    margin-top: 11%;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .clicks5 {
+    height: 46%;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/elen/images/image_5.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .profo5 {
+    background-image: url(https://themewagon.github.io/elen/images/person_2.jpg);
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 32%;
+    width: 20.5%;
+    float: left;
+    margin-top: 11%;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .clicks6 {
+    height: 46%;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/elen/images/image_6.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .profo6 {
+    background-image: url(https://themewagon.github.io/elen/images/person_3.jpg);
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 32%;
+    width: 20.5%;
+    float: left;
+    margin-top: 11%;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .clicks7 {
+    height: 46%;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/elen/images/image_7.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .profo7 {
+    background-image: url(https://themewagon.github.io/elen/images/person_1.jpg);
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 32%;
+    width: 20.5%;
+    float: left;
+    margin-top: 11%;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .clicks8 {
+    height: 46%;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/elen/images/image_8.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .profo8 {
+    background-image: url(https://themewagon.github.io/elen/images/person_2.jpg);
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 32%;
+    width: 20.5%;
+    float: left;
+    margin-top: 11%;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .clicks9 {
+    height: 46%;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/elen/images/image_9.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .profo9 {
+    background-image: url(https://themewagon.github.io/elen/images/person_3.jpg);
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 32%;
+    width: 20.5%;
+    float: left;
+    margin-top: 11%;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .clicks10 {
+    height: 46%;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/elen/images/image_10.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .profo10 {
+    background-image: url(https://themewagon.github.io/elen/images/person_1.jpg);
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 32%;
+    width: 20.5%;
+    float: left;
+    margin-top: 11%;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .clicks11 {
+    height: 46%;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/elen/images/image_11.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  .profo11 {
+    background-image: url(https://themewagon.github.io/elen/images/person_2.jpg);
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 32%;
+    width: 20.5%;
+    float: left;
+    margin-top: 11%;
+    cursor: pointer;
+    background-size: cover;
+  }
+
+  .clicks12 {
+    height: 46%;
+    width: 100%;
+    background-image: url(https://themewagon.github.io/elen/images/image_12.jpg);
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .profo12 {
+    background-image: url(https://themewagon.github.io/elen/images/person_3.jpg);
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 32%;
+    width: 20.5%;
+    float: left;
+    margin-top: 11%;
+    cursor: pointer;
+    background-size: cover;
+  }
+
+  .footer {
+    height: 900px;
+    width: 100%;
+    background-color: rgb(19, 34, 56);
+    padding: 5% 0% 0% 10%;
+    box-sizing: border-box;
+    margin-top: 3950px;
+  }
+
+  .foot_content {
+    height: 32%;
+    width: 100%;
+    float: left;
+  }
+  .foot_content h2 {
+    color: white;
+  }
+
+  .foot_content1 {
+    height: 36%;
+    width: 100%;
+    float: left;
+    margin-left: 0%;
+    color: white;
+  }
+
+  #foot_content1 {
+    height: 25%;
+  }
+
+  .foot_content p {
+    margin-top: 6%;
+    font-size: 15px;
+    color: gray;
+    cursor: pointer;
+  }
+  .foot_content1 p {
+    margin-top: 6%;
+    font-size: 15px;
+    color: gray;
+    cursor: pointer;
+  }
+  #p1 {
+    margin-top: 30px;
+  }
+  .foot_content span {
+    float: right;
+    color: rgb(255, 255, 255);
+    margin-right: 20%;
+  }
+  .foot_content1 span {
+    float: right;
+    color: rgb(255, 255, 255);
+    margin-right: 20%;
+  }
+  .foot_content1 i {
+    margin-right: 15px;
+    float: left;
+  }
+
+  .foot_content1 li {
+    margin-bottom: 25px;
+  }
+
+  .add {
+    float: left;
+    margin-right: 20px;
+    font-size: large;
+    cursor: pointer;
+  }
+
+  .add1 {
+    float: left;
+    margin-right: 10px;
+    font-size: large;
+    color: gray;
+  }
+  #copy {
+    color: gray;
+    font-size: larger;
+    height: 50px;
+    width: 100%;
+    margin-top: 380px;
+  }
+}
