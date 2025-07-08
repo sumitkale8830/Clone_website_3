@@ -17,19 +17,24 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
+     <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fa-solid fa-bars" id="btn"></i>
+      <i class="fa-solid fa-times" id="cancel"></i>
+    </label>
     <div class="v_navbar">
       <div class="logo">
         <h1>elen<span id="dot">.</span></h1>
       </div>
       <div class="pages">
-        <ul type="none">
-        <li>Home</li>
-        <li>Photograhy</li>
-        <li>Travel</li>
-        <li>Fashion</li>
-        <li>About</li>
-        <li>Contact</li>
-        </ul>
+       <ul type="none">
+        <a href="#home"><li>Home</li></a>
+        <a href="#Photograhy"><li>Photograhy</li></a>
+        <a href="#Travel"><li>Travel</li></a>
+        <a href="#fashion">  <li>Fashion</li></a>
+         <a href="#footer"><li>About</li></a>
+        <a href="#foot_content1"> <li>Contact</li></a>
+         </ul>
       </div>
       <div class="copy_right">
         <p>
@@ -250,7 +255,7 @@
           <div class="photos" id="topmargin" data-aos="fade-up"
      data-aos-anchor-placement="top-bottom">
             <div class="clicks8"></div>
-            <div class="info">
+            <div class="info" id="Travel">
               <h5>Photography,Travel</h5>
               <h3>Excited to Visit in Palawan Philippines</h3>
               <p>
@@ -300,7 +305,7 @@
           <div class="photos1" id="topmargin" data-aos="fade-up"
      data-aos-anchor-placement="top-bottom" >
             <div class="clicks10"></div>
-            <div class="info">
+            <div class="info" id="fashion">
               <h5>fashion</h5>
               <h3>10 Best Way to Styling Your Lifestyle</h3>
               <p>
@@ -374,7 +379,7 @@
           </div>
         </div>
       </div>
-      <div class="footer">
+      <div class="footer" id="footer">
         <div class="foot_content">
           <h2>Category</h2>
           <p id="p1">
