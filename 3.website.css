@@ -623,7 +623,9 @@ label {
   margin-top: 450px;
 }
 
-@media (max-width: 767px) {
+/*Mobile  View*/
+
+@media (max-width: 550px) {
   * {
     margin: 0px;
     padding: 0px;
@@ -670,6 +672,7 @@ label {
     color: black;
     transition: all 0.5s ease;
     z-index: 1000;
+    display: none;
   }
   #check:checked ~ .v_navbar {
     left: 0px;
@@ -680,8 +683,9 @@ label {
     pointer-events: none;
   }
   #check:checked ~ label #cancel {
-    left: 15%;
+    left: 24%;
     position: fixed;
+    display: block;
   }
 
   .wesite_content {
@@ -909,7 +913,6 @@ label {
   .profile {
     height: 26.1%;
     width: 100%;
-
     box-sizing: border-box;
   }
   .profo1 {
@@ -917,10 +920,10 @@ label {
     cursor: pointer;
     border-radius: 50%;
     box-sizing: border-box;
-    height: 32%;
-    width: 20.5%;
+    height: 37%;
+    width: 18%;
     float: left;
-    margin-top: 11%;
+    margin-top: 7%;
     background-size: cover;
   }
 
@@ -973,10 +976,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_2.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 32%;
-    width: 20.5%;
+    height: 37%;
+    width: 18%;
     float: left;
-    margin-top: 11%;
+    margin-top: 7%;
     background-size: cover;
     cursor: pointer;
   }
@@ -995,10 +998,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_3.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 32%;
-    width: 20.5%;
+    height: 37%;
+    width: 18%;
     float: left;
-    margin-top: 11%;
+    margin-top: 7%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1017,10 +1020,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_1.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 32%;
-    width: 20.5%;
+    height: 37%;
+    width: 18%;
     float: left;
-    margin-top: 11%;
+    margin-top: 7%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1039,10 +1042,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_2.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 32%;
-    width: 20.5%;
+    height: 37%;
+    width: 18%;
     float: left;
-    margin-top: 11%;
+    margin-top: 7%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1061,10 +1064,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_3.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 32%;
-    width: 20.5%;
+    height: 37%;
+    width: 18%;
     float: left;
-    margin-top: 11%;
+    margin-top: 7%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1083,10 +1086,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_1.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 32%;
-    width: 20.5%;
+    height: 37%;
+    width: 18%;
     float: left;
-    margin-top: 11%;
+    margin-top: 7%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1105,10 +1108,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_2.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 32%;
-    width: 20.5%;
+    height: 37%;
+    width: 18%;
     float: left;
-    margin-top: 11%;
+    margin-top: 7%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1127,10 +1130,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_3.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 32%;
-    width: 20.5%;
+    height: 37%;
+    width: 18%;
     float: left;
-    margin-top: 11%;
+    margin-top: 7%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1149,10 +1152,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_1.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 32%;
-    width: 20.5%;
+    height: 37%;
+    width: 18%;
     float: left;
-    margin-top: 11%;
+    margin-top: 7%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1171,10 +1174,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_2.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 32%;
-    width: 20.5%;
+    height: 37%;
+    width: 18%;
     float: left;
-    margin-top: 11%;
+    margin-top: 7%;
     cursor: pointer;
     background-size: cover;
   }
@@ -1193,16 +1196,16 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_3.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 32%;
-    width: 20.5%;
+    height: 37%;
+    width: 18%;
     float: left;
-    margin-top: 11%;
+    margin-top: 7%;
     cursor: pointer;
     background-size: cover;
   }
 
   .footer {
-    height: 960px;
+    height: 1200px;
     width: 100%;
     background-color: rgb(19, 34, 56);
     padding: 5% 0% 0% 10%;
@@ -1229,6 +1232,7 @@ label {
 
   #foot_content1 {
     height: 25%;
+    margin-top: 5%;
   }
 
   .foot_content p {
@@ -1287,16 +1291,18 @@ label {
   }
 }
 
-@media (min-width: 768px) and (max-width: 950px) {
+/*tablet View*/
+
+@media (min-width: 551px) and (max-width: 950px) {
   .v_navbar {
     height: 725px;
-    width: 24%;
+    width: 45%;
     background-color: rgba(231, 229, 229, 1);
     float: left;
     position: fixed;
     box-sizing: border-box;
     z-index: 200;
-    left: -24%;
+    left: -45%;
   }
   #check {
     display: none;
@@ -1321,7 +1327,7 @@ label {
   }
   label #cancel {
     z-index: 999;
-    left: -24%;
+    left: -45%;
     top: 10px;
     position: absolute;
     font-size: 25px;
@@ -1334,36 +1340,23 @@ label {
     left: 0px;
   }
   #check:checked ~ .label #btn {
-    left: 24%;
+    left: 45%;
     opacity: 0;
     pointer-events: none;
   }
   #check:checked ~ label #cancel {
-    left: 15%;
+    left: 45%;
     position: fixed;
   }
 
-  .wesite_content {
-    height: 4746px;
-    width: 100%;
-    display: block;
-    float: left;
-    position: relative;
-    left: 0%;
-    background-color: transparent;
-    box-sizing: border-box;
+  .copy_right {
+    margin-top: 0%;
+    padding: 0%;
   }
 
-  .logo {
-    text-align: center;
-    height: 20%;
+  .wesite_content {
     width: 100%;
-
-    padding-top: 50px;
-    box-sizing: border-box;
-    font-size: 25px;
-    cursor: pointer;
-    font-weight: bolder;
+    left: 0%;
   }
   #dot {
     color: gray;
@@ -1426,7 +1419,7 @@ label {
   }
 
   .opacitydiv {
-    padding: 180px 175px 0px 175px;
+    padding: 20% 0% 0% 0%;
     height: 100%;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.5);
@@ -1488,7 +1481,7 @@ label {
   }
 
   .articles {
-    height: 3500px;
+    height: 10000px;
     width: 100%;
     box-sizing: border-box;
     padding: 5% 5% 5% 5%;
@@ -1496,11 +1489,11 @@ label {
   }
 
   .article_logo {
-    height: 4%;
+    height: 1.5%;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     text-align: center;
-    padding: 0% 22% 0% 22%;
+    padding: 0%;
     box-sizing: border-box;
     font-family: "Poppins", Arial, sans-serif;
     float: left;
@@ -1509,30 +1502,23 @@ label {
   .article_logo p {
     margin-top: 30px;
     color: gray;
-    font-size: large;
   }
-
   .gallary {
-    height: 95%;
-    width: 100%;
-
-    float: left;
-    box-sizing: border-box;
+    height: 98.5%;
+    margin: 0%;
   }
 
   .photos1 {
-    width: 31.33%;
-    height: 21%;
-
+    width: 98%;
+    height: 8.33%;
     float: left;
   }
 
   .photos {
-    width: 31.33%;
-    height: 21%;
-
+    width: 98%;
+    height: 8.33%;
     float: left;
-    margin-left: 3%;
+    margin: 0%;
   }
 
   #topmargin {
@@ -1580,15 +1566,15 @@ label {
     cursor: pointer;
     border-radius: 50%;
     box-sizing: border-box;
-    height: 34%;
-    width: 28%;
+    height: 37%;
+    width: 16%;
     float: left;
-    margin-top: 12%;
+    margin-top: 6%;
     background-size: cover;
   }
 
   .profoabout {
-    width: 70%;
+    width: 80%;
     height: 40%;
     float: right;
     background-color: transparent;
@@ -1637,10 +1623,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_2.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 34%;
-    width: 28%;
+    height: 37%;
+    width: 16%;
     float: left;
-    margin-top: 12%;
+    margin-top: 6%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1659,10 +1645,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_3.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 34%;
-    width: 28%;
+    height: 37%;
+    width: 16%;
     float: left;
-    margin-top: 12%;
+    margin-top: 6%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1681,10 +1667,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_1.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 34%;
-    width: 28%;
+    height: 37%;
+    width: 16%;
     float: left;
-    margin-top: 12%;
+    margin-top: 6%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1703,10 +1689,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_2.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 34%;
-    width: 28%;
+    height: 37%;
+    width: 16%;
     float: left;
-    margin-top: 12%;
+    margin-top: 6%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1725,10 +1711,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_3.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 34%;
-    width: 28%;
+    height: 37%;
+    width: 16%;
     float: left;
-    margin-top: 12%;
+    margin-top: 6%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1747,10 +1733,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_1.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 34%;
-    width: 28%;
+    height: 37%;
+    width: 16%;
     float: left;
-    margin-top: 12%;
+    margin-top: 6%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1769,10 +1755,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_2.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 34%;
-    width: 28%;
+    height: 37%;
+    width: 16%;
     float: left;
-    margin-top: 12%;
+    margin-top: 6%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1791,10 +1777,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_3.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 34%;
-    width: 28%;
+    height: 37%;
+    width: 16%;
     float: left;
-    margin-top: 12%;
+    margin-top: 6%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1813,10 +1799,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_1.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 34%;
-    width: 28%;
+    height: 37%;
+    width: 16%;
     float: left;
-    margin-top: 12%;
+    margin-top: 6%;
     background-size: cover;
     cursor: pointer;
   }
@@ -1835,10 +1821,10 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_2.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 34%;
-    width: 28%;
+    height: 37%;
+    width: 16%;
     float: left;
-    margin-top: 12%;
+    margin-top: 6%;
     cursor: pointer;
     background-size: cover;
   }
@@ -1857,50 +1843,43 @@ label {
     background-image: url(https://themewagon.github.io/elen/images/person_3.jpg);
     border-radius: 50%;
     box-sizing: border-box;
-    height: 34%;
-    width: 28%;
+    height: 37%;
+    width: 16%;
     float: left;
-    margin-top: 12%;
+    margin-top: 6%;
     cursor: pointer;
     background-size: cover;
   }
 
   .footer {
-    height: 810px;
+    height: 1200px;
     width: 100%;
     background-color: rgb(19, 34, 56);
-    padding: 90px 50px 200px 50px;
+    padding: 5% 5% 30% 10%;
     box-sizing: border-box;
-    margin-top: -38%;
+    margin-top: 65%;
   }
 
   .foot_content {
-    height: 75%;
-    width: 30%;
+    height: 30%;
+    width: 100%;
     font-size: 20px;
-    float: left;
   }
-  .foot_content h2 {
-    color: white;
-  }
-
   .foot_content1 {
-    height: 85%;
-    width: 30%;
-    margin-bottom: 0%;
-    float: left;
-    margin-left: 5%;
+    height: 36%;
+    width: 100%;
+    margin: 0%;
     color: white;
   }
 
   .foot_content p {
-    margin-top: 6%;
+    margin-top: 3%;
     font-size: 20px;
     color: gray;
     cursor: pointer;
   }
   .foot_content1 p {
-    margin-top: 6%;
+    margin-top: 2%;
     font-size: 20px;
     color: gray;
     cursor: pointer;
@@ -1910,7 +1889,8 @@ label {
     font-size: 20px;
   }
   #tab {
-    font-size: 11.5px;
+    font-size: 28px;
+    margin: 0%;
   }
   .foot_content span {
     float: right;
@@ -1945,12 +1925,11 @@ label {
     font-size: 15px;
     color: gray;
     width: 80%;
-    margin-bottom: 10px;
   }
   #copy {
     color: gray;
     font-size: larger;
-    height: 50px;
     width: 100%;
+    margin-top: 0%;
   }
 }
